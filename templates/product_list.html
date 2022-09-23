@@ -16,7 +16,7 @@
   <div class="d-flex w-80">
     <div class="card">
 
-      {% for product in items.values() %}
+      {% for product in items %}
       <div class="product neumorphic ridge">
         <div class="product-image">
         <a href="{{ url_for('product_detail', id = product.id) }}">
